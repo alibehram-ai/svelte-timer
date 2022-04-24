@@ -8,10 +8,11 @@ let timerValue = 0;
 let selected;
 let toggle = 0;
 let timer = [
-		{ id: 1, value: 60 },
-		{ id: 2, value: 30 },
-		{ id: 3, value: 15 },
-		{ id: 3, value: 10 },
+        { id: 1, value: 'None' },
+		{ id: 2, value: 60 },
+		{ id: 3, value: 30 },
+		{ id: 4, value: 15 },
+		{ id: 5, value: 10 },
 	];
 // Add a leading zero to numbers less than 10.
 let enableTimer =false;
@@ -388,6 +389,7 @@ const handleSubmit = ()=> {
         margin: 0 auto;
         max-width: 810px;
     }
+    
     .timer__start-bttn, 
     .timer__reset-bttn {
         padding: .7em;
